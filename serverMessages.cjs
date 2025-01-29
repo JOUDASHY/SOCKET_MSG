@@ -64,7 +64,7 @@ app.post('/broadcast', (req, res) => {
     res.status(200).send('Message broadcasted');
 });
 
-// Démarrer le serveur sur le port 3000
-server.listen(3000, () => {
-    console.log('WebSocket server for messages started on http://localhost:3000');
+// Démarrer le serveur sur le port 80
+server.listen(80, () => {
+    console.log('WebSocket server for messages started on http://localhost:80');
 });
